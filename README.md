@@ -15,10 +15,12 @@ generateSentence.py - generates the feasible sentences for a given episode based
 
 vocab.txt - lists the possible unique words present in instructions. 
 
+gifs directory contains some GIFs that were saved when we trained our attention architecture with n=5.
+
 ## 3) How to train?
-'''
+```
 CUDA_VISIBLE_DEVICES="1" python main.py 
-'''
+```
 
 ## 4) Acknowledgement
 A3C implementation is based on open source implementation of [Arthur Juliani](https://github.com/awjuliani/DeepRL-Agents)
