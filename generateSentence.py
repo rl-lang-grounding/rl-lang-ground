@@ -386,8 +386,8 @@ def genPossibleSentences(reachable, reward_dict, data, vocabulary,ids, active_re
 	possible_sentences, pos_size = genAttrSentences(reachable, reward_dict, data, possible_sentences, pos_size, vocabulary, active_rewards)
 
 	
-	for s in possible_sentences:
-		print(s)
+	#for s in possible_sentences:
+	#	print(s)
 
 	
 	if len(possible_sentences) == 0 :
