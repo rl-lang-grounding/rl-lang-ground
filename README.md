@@ -17,6 +17,8 @@ vocab.txt - lists the possible unique words present in instructions.
 
 gifs directory contains some GIFs that were saved when we trained our attention architecture with n=5.
 
+images directory contains the images used to represent agent, different objects and obstacles.
+
 ## 3) How to train?
 ```
 CUDA_VISIBLE_DEVICES="1" python main.py 
