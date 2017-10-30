@@ -2,7 +2,7 @@
 Tensorflow code for ICLR 2018 submission https://openreview.net/forum?id=HJPSN3gRW&noteId=HJPSN3gRW
 
 ## 1) Usage
-1. This code is based on [TensorFlow](https://www.tensorflow.org/). Please install it by following the instructions mentioned in TF website. [moviepy](https://pypi.python.org/pypi/moviepy) is a pre-requisite for storing GIFs.
+This code is based on [TensorFlow](https://www.tensorflow.org/). Please install it by following the instructions mentioned in TF website. [moviepy](https://pypi.python.org/pypi/moviepy) is a pre-requisite for storing GIFs.
 
 ## 2) Code organization
 main.py is the main code containing the implementation of the architecture described in this paper. 
