@@ -1,0 +1,388 @@
+{
+	"environment" : 
+		{
+			"Height" : 84,
+			"Width" : 84,
+			"Block_height" : 10,
+			"Block_width" : 10,
+			"Background" : [255,255,255],
+			"Sizes" :{	"small" : 1,
+						"medium" : 2,
+						"large" : 3
+					}		
+		},
+
+	"agent" : [
+		{	
+			"img" : "agent.jpeg",
+			"size" : "small",
+			"step" : 1
+		}
+	],
+
+	"objects" : [
+		{
+			"id" : 1,
+			"type" : "Apple",
+			"color" : "green",
+			"img" : "apple_crop.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 2,
+			"type" : "Apple",
+			"color" : "red",
+			"img" : "red_apple.jpg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 3,
+			"type" : "Orange",
+			"color" : "orange",
+			"img" : "orange.jpg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 4,
+			"type" : "Sofa",
+			"color" : "green",
+			"img" : "green_sofa1.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 5,
+			"type" : "Sofa",
+			"color" : "blue",
+			"img" : "blue_sofa.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 6,
+			"type" : "Sofa",
+			"color" : "blue",
+			"img" : "blue_sofa.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 7,
+			"type" : "Car",
+			"color" : "red",
+			"img" : "red-car.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 8,
+			"type" : "Car",
+			"color" : "red",
+			"img" : "red-car.png",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 9,
+			"type" : "Car",
+			"color" : "green",
+			"img" : "green-car.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 10,
+			"type" : "Chair",
+			"color" : "orange",
+			"img" : "orange_chair.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 11,
+			"type" : "Bus",
+			"color" : "blue",
+			"img" : "blue_bus.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 12,
+			"type" : "Apple",
+			"color" : "green",
+			"img" : "apple_crop.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 13,
+			"type" : "Bag",
+			"color" : "blue",
+			"img" : "blue_bag.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 14,
+			"type" : "Bag",
+			"color" : "blue",
+			"img" : "blue_bag.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 15,
+			"type" : "Tree",
+			"color" : "green",
+			"img" : "green_tree.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 16,
+			"type" : "Tree",
+			"color" : "green",
+			"img" : "green_tree.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 17,
+			"type" : "Bag",
+			"color" : "orange",
+			"img" : "orange_bag.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 18,
+			"type" : "Bag",
+			"color" : "orange",
+			"img" : "orange_bag.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 19,
+			"type" : "Apple",
+			"color" : "red",
+			"img" : "red_apple.jpg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 20,
+			"type" : "Orange",
+			"color" : "orange",
+			"img" : "orange.jpg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 21,
+			"type" : "Flower",
+			"color" : "pink",
+			"img" : "pink_flower.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 22,
+			"type" : "Flower",
+			"color" : "pink",
+			"img" : "pink_flower.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 23,
+			"type" : "Flower",
+			"color" : "yellow",
+			"img" : "yellow_flower.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 24,
+			"type" : "Flower",
+			"color" : "yellow",
+			"img" : "yellow_flower.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 25,
+			"type" : "Cup",
+			"color" : "yellow",
+			"img" : "yellow_cup.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 26,
+			"type" : "Cup",
+			"color" : "yellow",
+			"img" : "yellow_cup.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 27,
+			"type" : "Cup",
+			"color" : "red",
+			"img" : "red_cup.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 28,
+			"type" : "Chair",
+			"color" : "pink",
+			"img" : "pink_chair.jpg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 29,
+			"type" : "Chair",
+			"color" : "pink",
+			"img" : "pink_chair.jpg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 30,
+			"type" : "Bus",
+			"color" : "yellow",
+			"img" : "yellow_bus.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 31,
+			"type" : "Bus",
+			"color" : "yellow",
+			"img" : "yellow_bus.png",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 32,
+			"type" : "Cup",
+			"color" : "red",
+			"img" : "red_cup.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		}
+
+	],
+	"obstacles" :  [
+		{
+			"id" : 33,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 34,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 35,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 36,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 37,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 38,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 39,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 40,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		}
+	]
+}
