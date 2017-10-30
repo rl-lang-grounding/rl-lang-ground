@@ -20,6 +20,7 @@ gifs directory contains some GIFs that were saved when we trained our attention 
 images directory contains the images used to represent agent, different objects and obstacles.
 
 ## 3) How to train?
+Our implementation can be trained on a GPU. Please specify the GPU using CUDA_VISIBLE_DEVICES flag.
 ```
 CUDA_VISIBLE_DEVICES="1" python main.py 
 ```
