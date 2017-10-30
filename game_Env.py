@@ -38,8 +38,8 @@ class Env(object) :
 
 		agent_info = data["agent"][0]
 		self.agent_size = self.sizes[agent_info["size"]]
-		self.agent_image = np.array(Image.open(agent_info["img"]))
-		# self.agent_image = cv2.imread(agent_info["img"],1)
+		#self.agent_image = np.array(Image.open(agent_info["img"]))
+		self.agent_image = cv2.imread(agent_info["img"],1)
 		rewards_info = data["objects"]
 		self.objects = {}
 		self.rewardIDS = []
