@@ -6,9 +6,13 @@ Tensorflow code for ICLR 2018 submission https://openreview.net/forum?id=HJPSN3g
 
 ## 2) Code organization
 main.py is the main code containing the implementation of the architecture described in this paper. 
+
 game_Env.py is the code for the new customizable 2D environment introduced in this paper. 
+
 objects.json contains the specificiation of number and types of objects/obstacles. 
+
 generateSentence.py - generates the feasible sentences for a given episode based on the environment configuration. 
+
 vocab.txt - lists the possible unique words present in instructions. 
 
 ## 3) How to train?
