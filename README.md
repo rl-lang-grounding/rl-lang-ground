@@ -25,8 +25,12 @@ Our implementation can be trained on a GPU. Please specify the GPU using CUDA_VI
 CUDA_VISIBLE_DEVICES="1" python main.py 
 ```
 
-## 4) Acknowledgement
+## 4) Sample depiction of trained agent
+Natural language instruction is: "There are multiple green apple. Go to smaller one."
+![The agent's trajectory as it navigates to smaller green apple](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneOriginalimage_41.gif)
+![Egocentric view as seen by agent as it navigates to smaller green apple](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneimage_41.gif)
+
+## 5) Acknowledgement
 A3C implementation is based on open source implementation of [Arthur Juliani](https://github.com/awjuliani/DeepRL-Agents)
 
-![1](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneOriginalimage_41.gif)
-![2](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneimage_41.gif)
+
