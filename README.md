@@ -9,7 +9,7 @@ main.py is the main code containing the implementation of the architecture descr
 
 game_Env.py is the code for the new customizable 2D environment introduced in this paper. 
 
-objects.json contains the specificiation of number and types of objects/obstacles. 
+objects.json contains the specification of number and types of objects/obstacles. 
 
 generateSentence.py - generates the feasible sentences for a given episode based on the environment configuration. 
 
@@ -27,6 +27,9 @@ CUDA_VISIBLE_DEVICES="1" python main.py
 
 ## 4) Sample depiction of trained agent
 Natural language instruction is: "There are multiple green apple. Go to smaller one."
+
+First gif shows the agent's trajectory as it navigates to the small green apple. Second gif shows the egocentric view as observed by the agent at every step in its trajectory. 
+
 ![1](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneOriginalimage_41.gif)
 ![2](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneimage_41.gif)
 
