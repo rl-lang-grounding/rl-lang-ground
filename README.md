@@ -28,3 +28,4 @@ CUDA_VISIBLE_DEVICES="1" python main.py
 ## 4) Acknowledgement
 A3C implementation is based on open source implementation of [Arthur Juliani](https://github.com/awjuliani/DeepRL-Agents)
 
+[sample](gifs/There_are_multiple_green_Apple_Go_to_smaller_oneOriginalimage_41.gif)
