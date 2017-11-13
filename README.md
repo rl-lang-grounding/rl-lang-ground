@@ -26,13 +26,13 @@ CUDA_VISIBLE_DEVICES="1" python main.py
 ```
 
 ## 4) Sample depiction of trained agent
-Natural language instruction is: "There are multiple green apple. Go to smaller one."
+Natural language instruction is: "There are multiple green apple. Go to larger one."
 
 First gif shows the agent's trajectory as it navigates to the small green apple. 
 Second gif shows the egocentric view as observed by the agent at every step in its trajectory. 
 
-![1](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneOriginalimage_41.gif)
-![2](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_smaller_oneimage_41.gif)
+![1](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_larger_oneimage_13.gif)
+![2](https://github.com/rl-lang-grounding/rl-lang-ground/raw/master/gifs/There_are_multiple_green_Apple_Go_to_larger_oneimage_13_ego.gif)
 
 gifs directory contain additional GIFs that were saved when we trained our attention architecture with n=5.
 
