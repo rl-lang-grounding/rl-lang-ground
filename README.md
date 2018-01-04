@@ -15,6 +15,8 @@ generateSentence.py - generates the feasible sentences for a given episode based
 
 vocab.txt - lists the possible unique words present in instructions. 
 
+vocab_new.txt - increased vocabulary with new objects and new words present in instructions.
+
 gifs directory contains some GIFs that were saved when we trained our attention architecture with n=5.
 
 images directory contains the images used to represent agent, different objects and obstacles.
