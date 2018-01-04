@@ -1,0 +1,666 @@
+{
+	"environment" : 
+		{
+			"Height" : 84,
+			"Width" : 84,
+			"Block_height" : 10,
+			"Block_width" : 10,
+			"Background" : [255,255,255],
+			"Sizes" :{	"small" : 1,
+						"medium" : 2,
+						"large" : 3
+					}		
+		},
+
+	"agent" : [
+		{	
+			"img" : "images/agent.jpeg",
+			"size" : "small",
+			"step" : 1
+		}
+	],
+
+	"objects" : [
+		{
+			"id" : 1,
+			"type" : "Apple",
+			"color" : "green",
+			"img" : "images/apple_crop.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 2,
+			"type" : "Apple",
+			"color" : "red",
+			"img" : "images/red_apple.jpg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 3,
+			"type" : "Orange",
+			"color" : "orange",
+			"img" : "images/orange.jpg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 4,
+			"type" : "Sofa",
+			"color" : "green",
+			"img" : "images/green_sofa1.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 5,
+			"type" : "Sofa",
+			"color" : "blue",
+			"img" : "images/blue_sofa.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 6,
+			"type" : "Sofa",
+			"color" : "blue",
+			"img" : "images/blue_sofa.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 7,
+			"type" : "Car",
+			"color" : "red",
+			"img" : "images/red-car.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 8,
+			"type" : "Car",
+			"color" : "red",
+			"img" : "images/red-car.png",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 9,
+			"type" : "Car",
+			"color" : "green",
+			"img" : "images/green-car.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 10,
+			"type" : "Chair",
+			"color" : "orange",
+			"img" : "images/orange_chair.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 11,
+			"type" : "Bus",
+			"color" : "blue",
+			"img" : "images/blue_bus.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 12,
+			"type" : "Apple",
+			"color" : "green",
+			"img" : "images/apple_crop.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 13,
+			"type" : "Bag",
+			"color" : "blue",
+			"img" : "images/blue_bag.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 14,
+			"type" : "Bag",
+			"color" : "blue",
+			"img" : "images/blue_bag.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 15,
+			"type" : "Tree",
+			"color" : "green",
+			"img" : "images/green_tree.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 16,
+			"type" : "Tree",
+			"color" : "green",
+			"img" : "images/green_tree.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 17,
+			"type" : "Bag",
+			"color" : "orange",
+			"img" : "images/orange_bag.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 18,
+			"type" : "Bag",
+			"color" : "orange",
+			"img" : "images/orange_bag.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 19,
+			"type" : "Apple",
+			"color" : "red",
+			"img" : "images/red_apple.jpg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 20,
+			"type" : "Orange",
+			"color" : "orange",
+			"img" : "images/orange.jpg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 21,
+			"type" : "Flower",
+			"color" : "pink",
+			"img" : "images/pink_flower.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 22,
+			"type" : "Flower",
+			"color" : "pink",
+			"img" : "images/pink_flower.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 23,
+			"type" : "Flower",
+			"color" : "yellow",
+			"img" : "images/yellow_flower.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 24,
+			"type" : "Flower",
+			"color" : "yellow",
+			"img" : "images/yellow_flower.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 25,
+			"type" : "Cup",
+			"color" : "yellow",
+			"img" : "images/yellow_cup.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 26,
+			"type" : "Cup",
+			"color" : "yellow",
+			"img" : "images/yellow_cup.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 27,
+			"type" : "Cup",
+			"color" : "red",
+			"img" : "images/red_cup.jpeg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 28,
+			"type" : "Chair",
+			"color" : "pink",
+			"img" : "images/pink_chair.jpg",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 29,
+			"type" : "Chair",
+			"color" : "pink",
+			"img" : "images/pink_chair.jpg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 30,
+			"type" : "Bus",
+			"color" : "yellow",
+			"img" : "images/yellow_bus.png",
+			"size" : "small",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 31,
+			"type" : "Bus",
+			"color" : "yellow",
+			"img" : "images/yellow_bus.png",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+			"id" : 32,
+			"type" : "Cup",
+			"color" : "red",
+			"img" : "images/red_cup.jpeg",
+			"size" : "medium",
+			"hard" : 0,
+			"reward" : 1
+		},
+		{
+                        "id" : 33,
+                        "type" : "Ball",
+                        "color" : "black",
+                        "img" : "images/black_ball.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 34,
+                        "type" : "Ball",
+                        "color" : "red",
+                        "img" : "images/red_ball.jpg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 35,
+                        "type" : "Bear",
+                        "color" : "black",
+                        "img" : "images/black_bear.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 36,
+                        "type" : "Bear",
+                        "color" : "orange",
+                        "img" : "images/orange_bear.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 37,
+                        "type" : "Cat",
+                        "color" : "black",
+                        "img" : "images/black_cat.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 38,
+                        "type" : "Cat",
+                        "color" : "orange",
+                        "img" : "images/orange_cat.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 39,
+                        "type" : "Knife",
+                        "color" : "black",
+                        "img" : "images/black_knife.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 40,
+                        "type" : "Knife",
+                        "color" : "blue",
+                        "img" : "images/blue_knife.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 41,
+                        "type" : "Spoon",
+                        "color" : "black",
+                        "img" : "images/black_spoon.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		 {
+                        "id" : 42,
+                        "type" : "Spoon",
+                        "color" : "blue",
+                        "img" : "images/blue_spoon.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		 {
+                        "id" : 43,
+                        "type" : "Spoon",
+                        "color" : "red",
+                        "img" : "images/red_spoon.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		 {
+                        "id" : 44,
+                        "type" : "Triangle",
+                        "color" : "black",
+                        "img" : "images/black_triangle.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		 {
+                        "id" : 45,
+                        "type" : "Triangle",
+                        "color" : "yellow",
+                        "img" : "images/Yellow_triangle.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 46,
+                        "type" : "Triangle",
+                        "color" : "green",
+                        "img" : "images/green_triangle.jpg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 47,
+                        "type" : "Triangle",
+                        "color" : "yellow",
+                        "img" : "images/Yellow_triangle.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 48,
+                        "type" : "Bird",
+                        "color" : "blue",
+                        "img" : "images/blue_bird.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 49,
+                        "type" : "Bird",
+                        "color" : "orange",
+                        "img" : "images/orange_bird.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 50,
+                        "type" : "Hexagon",
+                        "color" : "blue",
+                        "img" : "images/blue_hexagon.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 51,
+                        "type" : "Hexagon",
+                        "color" : "pink",
+                        "img" : "images/pink_hexagon.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 52,
+                        "type" : "Grape",
+                        "color" : "green",
+                        "img" : "images/green_grape.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 53,
+                        "type" : "Grape",
+                        "color" : "black",
+                        "img" : "images/black_grapes.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },    
+		{
+                        "id" : 54,
+                        "type" : "Turtle",
+                        "color" : "green",
+                        "img" : "images/green_turtle.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },    
+		{
+                        "id" : 55,
+                        "type" : "Turtle",
+                        "color" : "pink",
+                        "img" : "images/pink_turtle.jpg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },	
+		{
+                        "id" : 56,
+                        "type" : "Pig",
+                        "color" : "pink",
+                        "img" : "images/pink_pig.jpg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                }, 
+		{
+                        "id" : 57,
+                        "type" : "Fan",
+                        "color" : "red",
+                        "img" : "images/red_fan.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 58,
+                        "type" : "Fan",
+                        "color" : "yellow",
+                        "img" : "images/yellow_fan.jpeg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 59,
+                        "type" : "Camel",
+                        "color" : "orange",
+                        "img" : "images/orange_camel.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 60,
+                        "type" : "Carrot",
+                        "color" : "orange",
+                        "img" : "images/orange_carrot.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 61,
+                        "type" : "Television",
+                        "color" : "black",
+                        "img" : "images/black_television.png",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 62,
+                        "type" : "Banana",
+                        "color" : "yellow",
+                        "img" : "images/yellow_banana.jpg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                },
+		{
+                        "id" : 63,
+                        "type" : "Banana",
+                        "color" : "red",
+                        "img" : "images/red_banana.jpg",
+                        "size" : "small",
+                        "hard" : 0,
+                        "reward" : 1
+                }
+	],
+	"obstacles" :  [
+		{
+			"id" : 64,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "images/brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 65,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "images/brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 66,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "images/brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 67,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "images/brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 68,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "images/brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 69,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "images/brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+			"id" : 70,
+			"type" : "Walls",
+			"color" : "orange",
+			"img" : "images/brick_block.png",
+			"size" : "small",
+			"hard" : 1,
+			"reward" : -1
+		},
+		{
+                        "id" : 71,
+                        "type" : "Walls",
+                        "color" : "orange",
+                        "img" : "images/brick_block.png",
+                        "size" : "small",
+                        "hard" : 1,
+                        "reward" : -1
+                }
+	]
+}
