@@ -11,6 +11,8 @@ game_Env.py is the code for the new customizable 2D environment introduced in th
 
 objects.json contains the specification of number and types of objects/obstacles. 
 
+objects_new.json contains new increased number of objects. 
+
 generateSentence.py - generates the feasible sentences for a given episode based on the environment configuration. 
 
 vocab.txt - lists the possible unique words present in instructions. 
