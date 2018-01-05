@@ -29,7 +29,7 @@ Our implementation can be trained on a GPU. Please specify the GPU using CUDA_VI
 CUDA_VISIBLE_DEVICES="1" python main.py 
 ```
 ## 4) How to generate Attention Maps?
-Run generateAttentionGifs.py to generate multiple gifs corresponding to the evolution of game state as well as of different attention maps in an episode. Extract out any single frame from those gifs(we used Preview app in mac). Once the images have been extracted, edit the location of the images(original and the attention map) in the Mask_Map.py code and run it. A sample extracted image of original state(orig.png) and an attention map(1.png) have also been uploaded.  
+Run generateAttentionGifs.py to generate multiple gifs corresponding to the evolution of game state as well as of different attention maps in an episode. Extract out any single frame from those gifs(we used Preview app in mac). Once the images have been extracted, edit the location of the images(original and the attention map) in the Mask_Map.py code and run it to get the final mask. A sample extracted image of original state(orig.png), attention map(1.png) and the corresponding mask(1_masked.png) have also been uploaded.  
 
 ## 5) Sample depiction of trained agent
 Natural language instruction is: "There are multiple green apple. Go to larger one."
