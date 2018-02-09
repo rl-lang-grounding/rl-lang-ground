@@ -41,6 +41,10 @@ Second gif shows the egocentric view as observed by the agent at every step in i
 
 gifs directory contain additional GIFs that were saved when we trained our attention architecture with n=5.
 
+## 6) 3D results 
+
+To replicate the 3D results go this link https://github.com/rl-lang-grounding/DeepRL-Grounding/blob/master/README.md 
+
 ## 5) Acknowledgement
 A3C implementation is based on open source implementation of [Arthur Juliani](https://github.com/awjuliani/DeepRL-Agents)
 
