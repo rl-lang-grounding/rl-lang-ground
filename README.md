@@ -1,5 +1,5 @@
 # Attention Based Natural Language Grounding by Navigating Virtual Environment
-Tensorflow code for https://arxiv.org/abs/1804.08454
+Tensorflow code 
 
 ## 1) Usage
 This code is based on [TensorFlow](https://www.tensorflow.org/). Please install it by following the instructions mentioned in TF website. [moviepy](https://pypi.python.org/pypi/moviepy) is a pre-requisite for storing GIFs.
