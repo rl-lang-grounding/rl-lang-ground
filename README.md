@@ -46,7 +46,7 @@ gifs directory contain additional GIFs that were saved when we trained our atten
 
 To replicate the 3D results go this link https://github.com/rl-lang-grounding/DeepRL-Grounding
 
-## 5) Acknowledgement
+## 7) Acknowledgement
 A3C implementation is based on open source implementation of [Arthur Juliani](https://github.com/awjuliani/DeepRL-Agents)
 
 
