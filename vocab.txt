@@ -1,6 +1,6 @@
 Apple
-Orange
 Sofa
+Orange
 Car
 Chair
 Bus
